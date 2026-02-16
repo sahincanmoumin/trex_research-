@@ -1,4 +1,4 @@
-# trex_research-
+# trex_research
 
 # Modern Yazılım Geliştirme Teknikleri
 
