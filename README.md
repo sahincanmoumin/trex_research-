@@ -156,11 +156,8 @@ Bu özellik sayesinde aynı proje farklı işletim sistemlerinde yeniden yazılm
 ### Arrow Function (=>) C#’taki Yeri
 
 C#’ta `=>` ifadesi lambda expression ve expression-bodied member tanımlamak için kullanılır. Daha kısa ve okunabilir kod yazmayı sağlar.
-
-```csharp
 int Topla(int a, int b) => a + b;
 
----
 
 ## dotnet --info Çıktısı Örneği ve Yorumlama
 
