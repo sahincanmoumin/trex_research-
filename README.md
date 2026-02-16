@@ -160,4 +160,43 @@ C#’ta `=>` ifadesi lambda expression ve expression-bodied member tanımlamak i
 ```csharp
 int Topla(int a, int b) => a + b;
 
+## dotnet --info Çıktısı Örneği ve Yorumlama
+
+Aşağıda örnek bir `dotnet --info` çıktısı bulunmaktadır:
+
+```bash
+.NET SDK:
+ Version:   8.0.100
+ Commit:    abcdef123
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.19045
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\dotnet\sdk\8.0.100\
+
+Host:
+  Version:      8.0.0
+  Architecture: x64
+
+.NET SDKs installed:
+  7.0.400 [C:\Program Files\dotnet\sdk]
+  8.0.100 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.NETCore.App 7.0.10
+  Microsoft.NETCore.App 8.0.0
+```
+
+### Yorumlama
+
+- **SDK Version** → Yüklü olan .NET SDK sürümünü gösterir (proje geliştirmek için kullanılır).
+- **Runtime** → Uygulamayı çalıştırmak için gereken ortamdır.
+- **OS Platform** → İşletim sistemini belirtir.
+- **SDKs installed** → Bilgisayarda yüklü tüm SDK sürümleri.
+- **Runtimes installed** → Yüklü olan çalışma zamanı sürümleri.
+
+---
+
 
