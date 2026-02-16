@@ -1,66 +1,89 @@
 # trex_research-
 
+# Modern Yazılım Geliştirme Teknikleri
 
-1. Modern Yazılım Geliştirme Teknikleri
-1.1 Git ve GitHub
+## Git ve GitHub
 
+### Git Nedir?
 
-1.1.1 Git Nedir?
+Git, dağıtık bir versiyon kontrol sistemidir.  
+Ekip çalışmalarında kod karmaşasını önleyen en temel araçtır.
 
-Git, dağıtık bir versiyon kontrol sistemidir. Ekip çalışmalarında kod karmaşasını önleyen en temel araçtır.
-
-
-1.1.2. GitHub Nedir?
+### GitHub Nedir?
 
 GitHub, Git repository’lerini internet üzerinde barındıran bir platformdur.
 
+---
 
-1.2 Temel Git komutları
+## Temel Git Komutları
 
-git init → Yeni repository oluşturur
-  
-git clone → Uzak repo’yu bilgisayara kopyalar
-  
-git add → Değişiklikleri stage alanına alır
-  
-git commit → Değişiklikleri kaydeder
-  
-git push → Değişiklikleri remote’a gönderir
-  
-git pull → Remote’daki değişiklikleri çeker
-  
-git branch → Yeni branch oluşturur
-  
-git merge → Branch’leri birleştirir
+- `git init` → Yeni repository oluşturur
+- `git clone` → Uzak repo’yu bilgisayara kopyalar
+- `git add` → Değişiklikleri stage alanına alır
+- `git commit` → Değişiklikleri kaydeder
+- `git push` → Değişiklikleri remote’a gönderir
+- `git pull` → Remote’daki değişiklikleri çeker
+- `git branch` → Yeni branch oluşturur
+- `git merge` → Branch’leri birleştirir
 
+---
 
-1.3 Merge Conflict Nedir?
+## Merge Conflict Nedir?
 
-Merge conflict iki farklı branch'te aynı dosyanın aynı satırları değiştirildiğinde ve Git bunları otomatik birleştiremediğinde oluşur.
+Merge conflict, iki farklı branch'te aynı dosyanın aynı satırları değiştirildiğinde ve Git bunları otomatik birleştiremediğinde oluşur.
 
-Çözüm yolları:
+### Çözüm Yolları
 
-1.Manuel düzenleme
-2.IDE/Editor araçları kullanmak
-3.Abort etme
+1. Manuel düzenleme
+2. IDE/Editor araçları kullanma
+3. `git merge --abort` ile işlemi iptal etme
 
-1.4 CI/CD 
+---
 
-CI/CD, kodun otomatik olarak build edilmesi, test edilmesi ve deploy edilmesi sürecidir. CI/CD süreçleri, insan hatasını azaltır ve yazılımın sürekli çalışabilir durumda kalmasını sağlar.
+## CI/CD
 
-.NET Projesinde CI/CD Uygulaması
+CI/CD, kodun otomatik olarak build edilmesi, test edilmesi ve deploy edilmesi sürecidir.  
+Bu süreç insan hatasını azaltır ve yazılımın sürekli çalışabilir durumda kalmasını sağlar.
 
-Bir .NET Web API projesinde pipeline adımları:
+### .NET Projesinde CI/CD Uygulaması
 
-1.Kod push edilir
+Bir .NET Web API projesinde tipik pipeline adımları:
 
-2.dotnet restore çalışır
+1. Kod push edilir
+2. `dotnet restore`
+3. `dotnet build`
+4. Testler çalıştırılır
+5. `dotnet publish`
+6. Sunucuya deploy edilir
 
-3.dotnet build yapılır
+---
 
-4.Testler çalıştırılır
+## Software Development Life Cycle (SDLC)
 
-5.dotnet publish ile çıktı alınır
+SDLC, yazılım geliştirme sürecinin planlı ve sistematik şekilde yürütülmesidir.
 
-6.Sunucuya deploy edilir
+### SDLC Aşamaları
 
+1. **Planlama** – Proje kapsamı ve gereksinimler belirlenir.
+2. **Analiz** – Teknik ve iş gereksinimleri detaylandırılır.
+3. **Geliştirme** – Kod yazımı yapılır.
+4. **Test** – Hatalar kontrol edilir.
+5. **Dağıtım (Deployment)** – Uygulama canlı ortama alınır.
+6. **Bakım** – Hata düzeltmeleri ve iyileştirmeler yapılır.
+
+---
+
+## Agile, Scrum ve Kanban
+
+### Agile
+
+Esnek ve iteratif geliştirme yaklaşımıdır.
+
+### Scrum
+
+Sprint mantığıyla çalışan Agile metodolojisidir.  
+Günlük toplantılar ve sprint planlaması içerir.
+
+### Kanban
+
+Görevlerin görsel bir tahta üzerinde yönetildiği sistemdir.
