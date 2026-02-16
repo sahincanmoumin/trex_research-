@@ -845,6 +845,7 @@ Açıklayıcı değişken isimleri kullanılmalıdır.
 - Büyük ve ölçeklenebilir sistem → Microservices
 - Gerçek zamanlı bildirim sistemi → Event-Driven
 - Dış servis bağımlılığı yüksek sistem → Hexagonal
-```
+
+---
 
 
