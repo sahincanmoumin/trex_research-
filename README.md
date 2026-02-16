@@ -140,3 +140,24 @@ Evet. Modern .NET sürümleri aşağıdaki işletim sistemlerinde çalışabilir
 
 Bu özellik sayesinde aynı proje farklı işletim sistemlerinde yeniden yazılmadan çalıştırılabilir.
 
+## Senkron ve Asenkron Programlama
+
+**Senkron programlama**, işlemlerin sırayla ve birbirini bekleyerek çalıştığı yapıdır. Bir işlem bitmeden diğeri başlamaz. Uzun süren işlemlerde uygulamanın yavaşlamasına neden olabilir.
+
+**Asenkron programlama**, uzun süren işlemleri beklemeden diğer işlemlerin çalışmasına devam edilmesini sağlar. Özellikle veritabanı ve API çağrılarında performans avantajı sağlar.
+
+### Temel Kavramlar
+
+- **async** → Metodun asenkron çalışacağını belirtir.
+- **await** → Asenkron işlemin tamamlanmasını bekler ancak thread’i bloklamaz.
+- **Task** → Asenkron işlemi temsil eder.
+- **ConfigureAwait(false)** → Mevcut context’e dönmeyi engelleyerek performans iyileştirmesi sağlar.
+
+### Arrow Function (=>) C#’taki Yeri
+
+C#’ta `=>` ifadesi lambda expression ve expression-bodied member tanımlamak için kullanılır. Daha kısa ve okunabilir kod yazmayı sağlar.
+
+```csharp
+int Topla(int a, int b) => a + b;
+
+
