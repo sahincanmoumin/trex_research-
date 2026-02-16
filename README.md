@@ -160,6 +160,8 @@ C#’ta `=>` ifadesi lambda expression ve expression-bodied member tanımlamak i
 ```csharp
 int Topla(int a, int b) => a + b;
 
+---
+
 ## dotnet --info Çıktısı Örneği ve Yorumlama
 
 Aşağıda örnek bir `dotnet --info` çıktısı bulunmaktadır:
