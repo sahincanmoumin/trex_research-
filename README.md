@@ -1,7 +1,7 @@
 # trex_research-
 
 
-1. Modern Yazılım Geliştirme Pratikleri
+1. Modern Yazılım Geliştirme Teknikleri
 
 1.1 Git ve GitHub
 
