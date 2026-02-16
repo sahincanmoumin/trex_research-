@@ -87,3 +87,56 @@ Günlük toplantılar ve sprint planlaması içerir.
 ### Kanban
 
 Görevlerin görsel bir tahta üzerinde yönetildiği sistemdir.
+
+---
+
+# .NET Platformu
+
+## .NET Nedir?
+
+.NET, Microsoft tarafından geliştirilen açık kaynaklı bir yazılım geliştirme platformudur. Web, masaüstü, mobil, oyun ve bulut tabanlı uygulamalar geliştirmek için kullanılır.
+
+### Tarihçesi
+
+- 2002 yılında .NET Framework olarak yayınlandı.
+- 2016 yılında .NET Core ile platform bağımsız hale geldi.
+- .NET 5 ile Framework ve Core yapıları birleştirildi.
+- Günümüzde .NET 7/8+ modern ve birleşik sürümler olarak devam etmektedir.
+
+### Amacı
+
+- Farklı platformlarda çalışabilen uygulamalar geliştirmek  
+- Yüksek performans ve güvenlik sağlamak  
+- Modern yazılım geliştirme standartlarını desteklemek  
+
+### Neden Kullanılır?
+
+- Kurumsal projelerde yaygın olması  
+- Güçlü C# dili desteği  
+- Geniş kütüphane ve araç ekosistemi  
+- Performanslı Web API geliştirme imkanı  
+
+---
+
+## .NET Framework, .NET Core ve .NET 7/8+ Farkları
+
+| Özellik | .NET Framework | .NET Core | .NET 7/8+ |
+|----------|----------------|------------|------------|
+| Çıkış Yılı | 2002 | 2016 | 2022+ |
+| Platform | Sadece Windows | Windows, Linux, macOS | Windows, Linux, macOS |
+| Açık Kaynak | Hayır | Evet | Evet |
+| Performans | Orta | Yüksek | Daha yüksek |
+| Güncellik | Eski | Aktif | En güncel |
+
+---
+
+## Platformlar Arası Çalışabilir mi?
+
+Evet. Modern .NET sürümleri aşağıdaki işletim sistemlerinde çalışabilir:
+
+- Windows  
+- Linux  
+- macOS  
+
+Bu özellik sayesinde aynı proje farklı işletim sistemlerinde yeniden yazılmadan çalıştırılabilir.
+
