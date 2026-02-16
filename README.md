@@ -198,4 +198,78 @@ Host:
 
 ---
 
+# Backend Geliştirme Temelleri
+
+## Backend Nedir?
+
+Backend, uygulamanın sunucu tarafında çalışan kısmıdır. Veritabanı işlemleri, iş kuralları ve API yönetimi burada yapılır.  
+Frontend ise kullanıcının gördüğü arayüz kısmıdır. Backend veri üretir, frontend bu veriyi kullanıcıya gösterir.
+
+---
+
+## Web Sunucusu ve API
+
+**Web sunucusu**, istemciden gelen istekleri karşılayan ve cevap dönen sistemdir.  
+**API (Application Programming Interface)**, uygulamaların birbiriyle haberleşmesini sağlayan arayüzdür.
+
+### API Türleri
+- REST API
+- SOAP API
+- GraphQL API
+
+---
+
+## HTTP Nedir?
+
+HTTP (HyperText Transfer Protocol), istemci ile sunucu arasındaki veri iletişim protokolüdür.
+
+### HTTP Metodları
+
+- **GET** → Veri almak için kullanılır.  
+- **POST** → Yeni veri eklemek için kullanılır.  
+- **PUT** → Var olan veriyi güncellemek için kullanılır.  
+- **DELETE** → Veri silmek için kullanılır.  
+
+---
+
+## RESTful Servislerin Çalışma Mantığı
+
+REST, HTTP metodlarını kullanarak kaynak (resource) tabanlı çalışan bir servis mimarisidir.  
+Her kaynak bir URL ile temsil edilir ve işlemler HTTP metodları ile yapılır.  
+Stateless yapıya sahiptir, yani her istek bağımsızdır.
+
+---
+
+## JSON Veri Formatı
+
+JSON (JavaScript Object Notation), veri taşımak için kullanılan hafif ve okunabilir bir formattır. API’lerde yaygın olarak kullanılır.
+
+### JSON Örneği
+
+```json
+{
+  "id": 1,
+  "name": "Ahmet",
+  "email": "ahmet@mail.com"
+}
+```
+
+JSON, frontend ile backend arasında veri alışverişini kolaylaştırır.
+
+---
+
+## REST vs SOAP vs GraphQL Karşılaştırması
+
+| Özellik | REST | SOAP | GraphQL |
+|----------|------|------|----------|
+| Veri Formatı | Genellikle JSON | XML | JSON |
+| Protokol | HTTP | HTTP, SMTP vb. | HTTP |
+| Esneklik | Orta | Düşük | Yüksek |
+| Performans | Yüksek | Daha düşük | İhtiyaca göre optimize |
+
+### Temel Farklar
+
+- **REST** → Basit ve hafif yapı, yaygın kullanım.
+- **SOAP** → Daha katı kurallı ve güvenlik odaklı.
+- **GraphQL** → İstemci sadece ihtiyaç duyduğu veriyi alır.
 
